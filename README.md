@@ -111,8 +111,6 @@ An UP-TO-DATE collection list for Large Language Model (LLM) Watermark
 * Bypassing LLM Watermarks with Color-Aware Substitutions
   * ACL 2024
   * https://aclanthology.org/2024.acl-long.464
-* Can Watermarked LLMs be Identified by Users via Crafted Prompts?
-  * https://openreview.net/forum?id=ujpAYpFDEA
 
 ###  2.2. <a name='Watermarkremoval'></a>Watermark removal attack
 * Paraphrasing evades detectors of AI-generated text, but retrieval is an effective defense
@@ -153,6 +151,8 @@ An UP-TO-DATE collection list for Large Language Model (LLM) Watermark
 * Waterfall: Framework for Robust and Scalable Text Watermarking [paper](http://arxiv.org/abs/2407.04411)
 * Pseudorandom Error-Correcting Codes
   * http://arxiv.org/abs/2402.09370
+* Can Watermarked LLMs be Identified by Users via Crafted Prompts?
+  * https://openreview.net/forum?id=ujpAYpFDEA
 
 
 ##  3. <a name='Multi-bitwatermark'></a>Multi-bit watermark
