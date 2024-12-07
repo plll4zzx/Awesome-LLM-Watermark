@@ -1,2 +1,2 @@
 # Awesome-LLM-Watermark
-A collection list for Large Language Model (LLM) Watermark
+An UP-TO-DATE collection list for Large Language Model (LLM) Watermark
