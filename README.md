@@ -11,8 +11,43 @@ An UP-TO-DATE collection list for Large Language Model (LLM) Watermark
   * <http://arxiv.org/abs/2301.10226>
 * 
 ### Sentence-level watermark (sentence embedding-based watermark)
+* WaterPool: A Watermark Mitigating Trade-offs among Imperceptibility, Efficacy and Robustness
+  * http://arxiv.org/abs/2405.13517
+* SemStamp: A Semantic Watermark with Paraphrastic Robustness for Text Generation
+  * NAACL 2024
+  * http://arxiv.org/abs/2310.03991
+* k-SemStamp: A Clustering-Based Semantic Watermark for Detection of Machine-Generated Text
+  * ACL Findings 2024
+  * http://arxiv.org/abs/2402.11399
+* A Semantic Invariant Robust Watermark for Large Language Models
+  * ICLR 2024
+  * http://arxiv.org/abs/2310.06356
+* A Robust Semantics-based Watermark for Large Language Model against Paraphrasing
+  * NAACL Findings 2024
+  * https://aclanthology.org/2024.findings-naacl.40
+* Context-aware Watermark with Semantic Balanced Green-red Lists for Large Language Models
+  * EMNLP 2024
+  * https://aclanthology.org/2024.emnlp-main.1260
+* Token-Specific Watermarking with Enhanced Detectability and Semantic Coherence for Large Language Models
+  * ICML 2024
+  * http://arxiv.org/abs/2402.18059
+* SEFD: Semantic-Enhanced Framework for Detecting LLM-Generated Text [text](http://arxiv.org/abs/2411.12764)
+* DeepTextMark: Deep Learning based Text Watermarking for Detection of Large Language Model Generated Text [paper](http://arxiv.org/abs/2305.05773)
+* Adversarial Watermarking Transformer: Towards Tracing Text Provenance with Data Hiding
+  * IEEE S&P 2021
+  * https://ieeexplore.ieee.org/document/9519400/
+* PersonaMark: Personalized LLM watermarking for model protection and user attribution [text](http://arxiv.org/abs/2409.09739)
+* REMARK-LLM: A Robust and Efficient Watermarking Framework for Generative Large Language Models
+  * USENIX Security 2024
 
 ### Model-level watermark
+* Provable Robust Watermarking for AI-Generated Text
+  * ICLR 2024
+  * http://arxiv.org/abs/2306.17439
+* Watermarking LLMs with Weight Quantization [paper](http://arxiv.org/abs/2310.11237)
+* EmMark: Robust Watermarks for IP Protection of Embedded Quantized Large Language Models [paper](http://arxiv.org/abs/2402.17938)
+* Watermarking Counterfactual Explanations [paper](http://arxiv.org/abs/2405.18671)
+* Provably Robust Watermarks for Open-Source Language Models [paper](http://arxiv.org/abs/2410.18861)
 
 ## Attack for watermark
 
@@ -71,7 +106,6 @@ An UP-TO-DATE collection list for Large Language Model (LLM) Watermark
   * http://arxiv.org/abs/2407.04794
 * Optimizing Adaptive Attacks against Content Watermarks for Language Models
   * http://arxiv.org/abs/2410.02440
-*  Optimizing Watermarks for Large Language Models
+* Optimizing Watermarks for Large Language Models
   * ICML 2024
   * https://proceedings.mlr.press/v235/wouters24a.html
-* 
