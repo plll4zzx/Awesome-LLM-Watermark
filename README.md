@@ -97,6 +97,26 @@ An UP-TO-DATE collection list for Large Language Model (LLM) Watermark
 ## Multi-bit watermark
 
 ## Unbiased watermark
+* Unbiased Watermark for Large Language Models
+  * ICLR 2023
+  * http://arxiv.org/abs/2310.10669
+* Undetectable Watermarks for Language Models
+  * COLT 2024
+  * https://proceedings.mlr.press/v247/christ24a
+* Robust Distortion-free Watermarks for Language Models
+  * TMLR 2024
+  * https://openreview.net/forum?id=FpaCL1MO2C
+* A Watermark for Low-entropy and Unbiased Generation in Large Language Models
+  * https://openreview.net/forum?id=hTUrBJqECJ
+* A Resilient and Accessible Distribution-Preserving Watermark for Large Language Models
+  * ICML 2024
+  * https://arxiv.org/abs/2310.07710
+* Pseudorandom Error-Correcting Codes
+  * http://arxiv.org/abs/2402.09370
+* Watermarking Language Models with Error Correcting Codes [text](http://arxiv.org/abs/2406.10281)
+* Scalable watermarking for identifying large language model outputs
+  * Nature 2024
+  * https://www.nature.com/articles/s41586-024-08025-4
 
 ## Analysis of LLM watermark
 * Can Watermarking Large Language Models Prevent  Copyrighted Text Generation and Hide Training Data?
