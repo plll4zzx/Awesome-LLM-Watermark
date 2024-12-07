@@ -1,3 +1,8 @@
+
+# Awesome-LLM-Watermark
+An UP-TO-DATE collection list for Large Language Model (LLM) Watermark
+<img src="LLM_watermark.jpg" width="50%">
+
 <!-- vscode-markdown-toc -->
 * 1. [LLM watermark](#LLMwatermark)
 	* 1.1. [Token-level watermark](#Token-levelwatermark)
@@ -18,11 +23,7 @@
 	numbering=true
 	autoSave=true
 	/vscode-markdown-toc-config -->
-<!-- /vscode-markdown-toc --># Awesome-LLM-Watermark
-An UP-TO-DATE collection list for Large Language Model (LLM) Watermark
-<img src="LLM_watermark.jpg" width="50%">
-
-
+<!-- /vscode-markdown-toc -->
 
 ##  1. <a name='LLMwatermark'></a>LLM watermark
 ###  1.1. <a name='Token-levelwatermark'></a>Token-level watermark
