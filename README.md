@@ -8,7 +8,7 @@ An UP-TO-DATE collection list for Large Language Model (LLM) Watermark
 
 [<img src="LLM_watermark.jpg" width="50%" class="center">](.)
 
-[![Star History Chart](https://api.star-history.com/svg?repos=plll4zzx/Awesome-LLM-Watermark&type=Date)](https://star-history.com/#plll4zzx/Awesome-LLM-Watermark&Date)
+<!-- [![Star History Chart](https://api.star-history.com/svg?repos=plll4zzx/Awesome-LLM-Watermark&type=Date)](https://star-history.com/#plll4zzx/Awesome-LLM-Watermark&Date) -->
 
 <!-- vscode-markdown-toc -->
 * 1. [LLM watermark](#LLMwatermark)
