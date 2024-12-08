@@ -49,7 +49,9 @@ An UP-TO-DATE collection list for Large Language Model (LLM) Watermark
 * Natural language watermarking via paraphraser-based lexical substitution 
   * Artificial Intelligence
   * https://linkinghub.elsevier.com/retrieve/pii/S000437022300005X
-* Adaptive Text Watermark for Large Language Models [paper](http://arxiv.org/abs/2401.13927)
+* Adaptive Text Watermark for Large Language Models
+  * ICML 2024
+  * [paper](https://proceedings.mlr.press/v235/liu24e.html#:~:text=This%20paper%20proposes%20an%20adaptive%20text%20watermarking%20strategy,model%20and%20keep%20the%20low-entropy%20token%20distributions%20untouched.)
 * Duwak: Dual Watermarks in Large Language Models
   * ACL findings 2024
   * https://aclanthology.org/2024.findings-acl.678
