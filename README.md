@@ -3,8 +3,12 @@
 <!-- [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) -->
 [![Page Views Count](https://badges.toozhao.com/badges/01JEK32741TVDMDN4MV5RGZTS0/blue.svg)](.)
 [![Stars](https://img.shields.io/github/stars/plll4zzx/Awesome-LLM-Watermark)](.)
+
 An UP-TO-DATE collection list for Large Language Model (LLM) Watermark
-<img src="LLM_watermark.jpg" width="50%">
+
+[<img src="LLM_watermark.jpg" width="50%" class="center">](.)
+
+[![Star History Chart](https://api.star-history.com/svg?repos=plll4zzx/Awesome-LLM-Watermark&type=Date)](https://star-history.com/#plll4zzx/Awesome-LLM-Watermark&Date)
 
 <!-- vscode-markdown-toc -->
 * 1. [LLM watermark](#LLMwatermark)
