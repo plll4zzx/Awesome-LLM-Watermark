@@ -38,9 +38,14 @@ An UP-TO-DATE collection list for Large Language Model (LLM) Watermark
   * ICLR 2024
   * https://openreview.net/forum?id=DEJIDCmWOz
 * Improving the Generation Quality of Watermarked Large Language Models via Word Importance Scoring [paper](http://arxiv.org/abs/2311.09668)
-* X-Mark: Towards Lossless Watermarking Through Lexical Redundancy [paper](http://arxiv.org/abs/2311.09832)
+* WatME: Towards Lossless Watermarking Through Lexical Redundancy
+  * ACL 2024
+  * https://aclanthology.org/2024.acl-long.496/
+  * **Alias** X-Mark: Towards Lossless Watermarking Through Lexical Redundancy [paper](http://arxiv.org/abs/2311.09832)
 * Towards Optimal Statistical Watermarking [paper](http://arxiv.org/abs/2312.07930)
-* Who Wrote this Code? Watermarking for Code Generation [paper](http://arxiv.org/abs/2305.15060)
+* Who Wrote this Code? Watermarking for Code Generation 
+  * ACL 2024
+  * https://aclanthology.org/2024.acl-long.268
 * Natural language watermarking via paraphraser-based lexical substitution 
   * Artificial Intelligence
   * https://linkinghub.elsevier.com/retrieve/pii/S000437022300005X
@@ -195,6 +200,9 @@ An UP-TO-DATE collection list for Large Language Model (LLM) Watermark
 * Scalable watermarking for identifying large language model outputs
   * Nature 2024
   * https://www.nature.com/articles/s41586-024-08025-4
+* Multi-Bit Distortion-Free Watermarking for Large Language Models [paper](http://arxiv.org/abs/2402.16578)
+* Distortion-free Watermarks are not Truly Distortion-free under Watermark Key Collisions [paper](http://arxiv.org/abs/2406.02603)
+  * **Alias** Pseudo- vs. True-Randomness: Rethinking Distortion-Free Watermarks of Language Models under Watermark Key Collisions [paper](https://openreview.net/forum?id=jln7IcheW6)
 
 ##  5. <a name='AnalysisofLLMwatermark'></a>Analysis of LLM watermark
 * Can Watermarking Large Language Models Prevent  Copyrighted Text Generation and Hide Training Data?
@@ -218,3 +226,8 @@ An UP-TO-DATE collection list for Large Language Model (LLM) Watermark
   * ACM Computing Surveys 2024
   * http://arxiv.org/abs/2312.07913
 * Mark My Words: Analyzing and Evaluating Language Model Watermarks [paper](http://arxiv.org/abs/2312.00273)
+* WaterBench: Towards Holistic Evaluation of Watermarks for Large Language Models
+  * ACL 2024
+  * https://aclanthology.org/2024.acl-long.83/
+* SoK: On the Role and Future of AIGC Watermarking in the Era of Gen-AI [paper](http://arxiv.org/abs/2411.11478)
+* SoK: Watermarking for AI-Generated Content [paper](https://arxiv.org/pdf/2411.18479)
