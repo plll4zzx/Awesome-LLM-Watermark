@@ -189,6 +189,7 @@ An UP-TO-DATE collection list for Large Language Model (LLM) Watermark
   * EMNLP findings 2024
   * https://aclanthology.org/2024.findings-emnlp.541
 * Enhancing Watermarked Language Models to Identify Users [paper](http://arxiv.org/abs/2405.11109)
+* CredID: Credible Multi-Bit Watermark for Large Language Models Identification [paper](http://arxiv.org/abs/2412.03107)
 
 ##  4. <a name='Unbiasedwatermark'></a>Unbiased watermark
 * Unbiased Watermark for Large Language Models
