@@ -106,7 +106,8 @@ An UP-TO-DATE collection list for Large Language Model (LLM) Watermark
 * Watermarking Counterfactual Explanations [paper](http://arxiv.org/abs/2405.18671)
 * Provably Robust Watermarks for Open-Source Language Models [paper](http://arxiv.org/abs/2410.18861)
 * Learning to Watermark LLM-generated Text via Reinforcement Learning [paper](http://arxiv.org/abs/2403.10553)
-
+* Towards Watermarking of Open-Source LLMs [paper](https://arxiv.org/abs/2502.10525)
+  
 ###  1.4. <a name='Watermarkingdetection'></a>Watermarking detection
 * An Entropy-based Text Watermarking Detection Method
   * ACL 2024
