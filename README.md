@@ -9,7 +9,7 @@ An UP-TO-DATE collection list for Large Language Model (LLM) Watermark
 
 [<img src="LLM_watermark.jpg" width="50%" class="center">](.)
 
-<!-- [![Star History Chart](https://api.star-history.com/svg?repos=plll4zzx/Awesome-LLM-Watermark&type=Date)](https://star-history.com/#plll4zzx/Awesome-LLM-Watermark&Date) -->
+[![Star History Chart](https://api.star-history.com/svg?repos=plll4zzx/Awesome-LLM-Watermark&type=Date)](https://star-history.com/#plll4zzx/Awesome-LLM-Watermark&Date)
 
 <!-- vscode-markdown-toc -->
 
@@ -21,6 +21,8 @@ An UP-TO-DATE collection list for Large Language Model (LLM) Watermark
   * 1.4. [Watermark for Multi-Modal](#WatermarkMultiModal)
   * 1.5. [Watermark for New Area](#NewWatermark)
   * 1.6. [Watermarking detection](#Watermarkingdetection)
+  * 1.7. [COT Watermark](#COTWatermark)
+  * 1.8. [Low Entropy Watermark](#lowEntropyWatermark)
 * 2. [Attack for watermark](#Attackforwatermark)
 
   * 2.1. [Watermark stealing attack](#Watermarkstealing)
@@ -74,6 +76,8 @@ An UP-TO-DATE collection list for Large Language Model (LLM) Watermark
 * Permute-and-Flip: An optimally stable and watermarkable decoder for LLMs
   * NeurIPS workshop 2024
   * https://arxiv.org/pdf/2402.05864
+* BiMarker: Enhancing Text Watermark Detection for Large Language Models with Bipolar Watermarks
+  * http://arxiv.org/abs/2501.12174
 
 ### 1.2. <a name='Sentence-levelwatermarksentenceembedding-basedwatermark'></a>Sentence-level watermark (sentence embedding-based watermark)
 
@@ -108,8 +112,7 @@ An UP-TO-DATE collection list for Large Language Model (LLM) Watermark
 
 ### 1.3. <a name='Model-levelwatermark'></a>Model-level watermark
 
-##* Provable Robust Watermarking for AI-Generated Text
-
+* Provable Robust Watermarking for AI-Generated Text
 * ICLR 2024
 * http://arxiv.org/abs/2306.17439
 * Watermarking LLMs with Weight Quantization [paper](http://arxiv.org/abs/2310.11237)
@@ -118,6 +121,13 @@ An UP-TO-DATE collection list for Large Language Model (LLM) Watermark
 * Provably Robust Watermarks for Open-Source Language Models [paper](http://arxiv.org/abs/2410.18861)
 * Learning to Watermark LLM-generated Text via Reinforcement Learning [paper](http://arxiv.org/abs/2403.10553)
 * Towards Watermarking of Open-Source LLMs [paper](https://arxiv.org/abs/2502.10525)
+* GaussMark: A Practical Approach for Structural Watermarking of Language Models
+  * http://arxiv.org/abs/2501.13941
+* Can Watermarked LLMs be Identified by Users via Crafted Prompts?
+  * http://arxiv.org/abs/2410.03168
+* An Efficient White-box LLM Watermarking for IP Protection on Online Market Platforms
+  * KDD 2025
+  * https://dl.acm.org/doi/10.1145/3711896.3736841
 
 ### 1.4.<a name='WatermarkMultiModal'></a>Watermark for Multi-Modal
 
@@ -126,11 +136,10 @@ An UP-TO-DATE collection list for Large Language Model (LLM) Watermark
 * From One Stolen Utterance: Assessing the Risks of Voice Cloning in the AIGC Era
   * S&P 2025
   * https://ieeexplore.ieee.org/document/11023497/
+* Evaluating Durability: Benchmark Insights into Multimodal Watermarking
+  * http://arxiv.org/abs/2406.03728
 
 ### 1.5.<a name='NewWatermark'></a>Watermark for New Area
-
-* Distilling the Thought, Watermarking the Answer: A Principle Semantic Guided Watermark for Large Reasoning Models
-  * https://openreview.net/forum?id=T6NVogsXCZ
 * KGMark: A Diffusion Watermark for Knowledge Graphs
   * ICME 2025
   * https://arxiv.org/abs/2505.23873
@@ -143,6 +152,8 @@ An UP-TO-DATE collection list for Large Language Model (LLM) Watermark
   * http://biorxiv.org/lookup/doi/10.1101/2024.10.23.619960
 * Enhancing privacy in biosecurity with watermarked protein design
   * https://academic.oup.com/bioinformatics/article/doi/10.1093/bioinformatics/btaf141/8124073
+* TabularMark: Watermarking Tabular Datasets for Machine Learning
+  * http://arxiv.org/abs/2406.14841
 
 
 
@@ -152,6 +163,39 @@ An UP-TO-DATE collection list for Large Language Model (LLM) Watermark
   * ACL 2024
   * https://aclanthology.org/2024.acl-long.630.pdf
 * WaterSeeker: Efficient Detection of Watermarked Segments in Large Documents [paper](http://arxiv.org/abs/2409.05112)
+* Optimal Detection for Language Watermarks with Pseudorandom Collision
+  * http://arxiv.org/abs/2510.22007
+* Adaptive Testing for Segmenting Watermarked Texts From Language Models
+  * http://arxiv.org/abs/2511.06645
+* On the Empirical Power of Goodness-of-Fit Tests in Watermark Detection
+  * http://arxiv.org/abs/2510.03944
+* Improving Detection of Watermarked Language Models
+  * http://arxiv.org/abs/2508.13131
+* Watermarking Cryptographic Capabilities
+  * 10.1145/2897518.2897651
+* Black-Box Detection of Language Model Watermarks
+  * http://arxiv.org/abs/2405.20777
+
+
+### 1.7.<a name='COTWatermark'></a>COT Watermark
+* Distilling the Thought, Watermarking the Answer: A Principle Semantic Guided Watermark for Large Reasoning Models
+  * https://openreview.net/forum?id=T6NVogsXCZ
+* CoTGuard: Using Chain-of-Thought Triggering for Copyright Protection in Multi-Agent LLM Systems
+  * http://arxiv.org/abs/2505.19405
+* CoTSRF: Utilize Chain of Thought as Stealthy and Robust Fingerprint of Large Language Models
+  * http://arxiv.org/abs/2505.16785
+
+### 1.8.<a name='lowEntropyWatermark'></a>Low Entropy Watermark
+
+* Practical and Effective Code Watermarking for Large Language Models
+* Disappearing Ink: Obfuscation Breaks N-gram Code Watermarks in Theory and Practice
+* HeavyWater and SimplexWater: Watermarking Low-Entropy Text Distributions
+* Entropy-Guided Watermarking for LLMs: A Test-Time Framework for Robust and Traceable Text Generation
+  * http://arxiv.org/abs/2504.12108
+* Invisible Entropy: Towards Safe and Efficient Low-Entropy LLM Watermarking
+  * http://arxiv.org/abs/2505.14112
+* CODEIP: A Grammar-Guided Multi-Bit Watermark for Large Language Models of Code
+* Who Wrote this Code? Watermarking for Code Generation
 
 ## 2. <a name='Attackforwatermark'></a>Attack for watermark
 
@@ -166,6 +210,8 @@ An UP-TO-DATE collection list for Large Language Model (LLM) Watermark
 * Bypassing LLM Watermarks with Color-Aware Substitutions
   * ACL 2024
   * https://aclanthology.org/2024.acl-long.464
+* Breaking Distortion-free Watermarks in Large Language Models
+  * http://arxiv.org/abs/2502.18608
 
 ### 2.2. <a name='Watermarkremoval'></a>Watermark removal attack
 
@@ -197,14 +243,41 @@ An UP-TO-DATE collection list for Large Language Model (LLM) Watermark
   * http://arxiv.org/abs/2411.01222
 * Can AI-Generated Text be Reliably Detected? [paper](http://arxiv.org/abs/2303.11156)
 * Lost in Overlap: Exploring Watermark Collision in LLMs [paper](http://arxiv.org/abs/2403.10020)
+* RLCracker: Exposing the Vulnerability of LLM Watermarks with Adaptive RL Attacks
+  * http://arxiv.org/abs/2509.20924
+* Robustness Assessment and Enhancement of Text Watermarking for Google's SynthID
+  * http://arxiv.org/abs/2508.20228
+* Sandcastles in the Storm: Revisiting the (Im)possibility of Strong Watermarking
+  * ACL 2025
+  * https://aclanthology.org/2025.acl-long.1436/
+* Attacking LLM Watermarks by Exploiting Their Strengths
+  * http://arxiv.org/abs/2402.16187
+* Revealing Weaknesses in Text Watermarking Through Self-Information Rewrite Attacks
+  * ICML 2025
+  * http://arxiv.org/abs/2505.05190
+* Warfare:Breaking the Watermark Protection of AI-Generated Content
+  * http://arxiv.org/abs/2310.07726
+* Optimizing Adaptive Attacks against Content Watermarks for Language Models
+  * http://arxiv.org/abs/2410.02440
 
-### 2.3. <a name='Watermarkspoofing'></a>Watermark spoofing attack
+### 2.3. <a name='Watermarkspoofing'></a>Watermark spoofing attack & Learnability
 
 * Discovering Clues of Spoofed LM Watermarks
   * http://arxiv.org/abs/2410.02693
 * On the Learnability of Watermarks for Language Models
   * ICLR 2024
   * http://arxiv.org/abs/2312.04469
+* CAN WATERMARKS BE USED TO DETECT LARGE LANGUAGE MODEL INTELLECTUAL PROPERTY IN- FRINGEMENT FOR FREE?
+* STAMP Your Content: Proving Dataset Membership via Watermarked Rephrasings
+* 
+
+#### Anti-spoofing
+* Detecting Post-generation Edits to Watermarked LLM Outputs via Combinatorial Watermarking
+  * http://arxiv.org/abs/2510.01637
+* Discovering Spoofing Attempts on Language Model Watermarks
+  * http://arxiv.org/abs/2410.02693
+* DAMAGE: Detecting Adversarially Modified AI Generated Text
+  * http://arxiv.org/abs/2501.03437
 
 ### 2.4. <a name='Robustwatermark'></a>Robust watermark
 
@@ -216,6 +289,8 @@ An UP-TO-DATE collection list for Large Language Model (LLM) Watermark
   * http://arxiv.org/abs/2402.09370
 * Can Watermarked LLMs be Identified by Users via Crafted Prompts?
   * https://openreview.net/forum?id=ujpAYpFDEA
+* Robust Steganography from Large Language Models
+  * http://arxiv.org/abs/2504.08977
 
 ## 3. <a name='Multi-bitwatermark'></a>Multi-bit watermark
 
@@ -281,6 +356,10 @@ An UP-TO-DATE collection list for Large Language Model (LLM) Watermark
 * WaterJudge: Quality-Detection Trade-off when Watermarking Large Language Models [paper](http://arxiv.org/abs/2403.19548)
 * Towards Better Statistical Understanding of Watermarking LLMs [paper](http://arxiv.org/abs/2403.13027)
 * Inevitable Trade-off between Watermark Strength and Speculative Sampling Efficiency for Language Models [paper](http://arxiv.org/abs/2410.20418)
+* LLM Watermarking Using Mixtures and Statistical-to-Computational Gaps
+  * http://arxiv.org/abs/2505.01484
+* Lost in Overlap: Exploring Logit-based Watermark Collision in LLMs
+  * http://arxiv.org/abs/2403.10020
 
 ## 6. <a name='Survey'></a>Survey
 
