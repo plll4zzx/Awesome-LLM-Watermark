@@ -27,12 +27,14 @@ An UP-TO-DATE collection list for Large Language Model (LLM) Watermark
 
   * 2.1. [Watermark stealing attack](#Watermarkstealing)
   * 2.2. [Watermark removal attack](#Watermarkremoval)
-  * 2.3. [Watermark spoofing attack](#Watermarkspoofing)
+  * 2.3. [Watermark spoofing attack & Learnability](#Watermarkspoofing)
   * 2.4. [Robust watermark](#Robustwatermark)
+  * 2.5. [Anti-spoofing Watermark](#AntiSpoofwatermark)
 * 3. [Multi-bit watermark](#Multi-bitwatermark)
 * 4. [Unbiased watermark](#Unbiasedwatermark)
 * 5. [Analysis of LLM watermark](#AnalysisofLLMwatermark)
-* 6. [Survey](#Survey)
+* 6. [Watermark for Diffusion Language Model](#dllmwm)
+* 7. [Survey](#Survey)
 
 <!-- vscode-markdown-toc-config
 	numbering=true
@@ -290,27 +292,6 @@ An UP-TO-DATE collection list for Large Language Model (LLM) Watermark
 * Bileve: Securing Text Provenance in Large Language Models Against Spoofing with Bi-level Signature
   * http://arxiv.org/abs/2406.01946
 
-#### Anti-spoofing
-* Detecting Post-generation Edits to Watermarked LLM Outputs via Combinatorial Watermarking
-  * http://arxiv.org/abs/2510.01637
-* Discovering Spoofing Attempts on Language Model Watermarks
-  * http://arxiv.org/abs/2410.02693
-* DAMAGE: Detecting Adversarially Modified AI Generated Text
-  * http://arxiv.org/abs/2501.03437
-* Let Watermarks Speak: A Robust and Unforgeable Watermark for Language Models
-  * http://arxiv.org/abs/2412.19603
-* An Unforgeable Publicly Verifiable Watermark for Large Language Models
-  * http://arxiv.org/abs/2307.16230
-* DualGuard: Dual-stream Large Language Model Watermarking Defense against Paraphrase and Spoofing Attack
-  * http://arxiv.org/abs/2512.16182
-* Two Halves Make a Whole: How to Reconcile Soundness and Robustness in Watermarking for Large Language Models
-  * https://eprint.iacr.org/2024/2062
-* Mitigating Watermark Forgery in Generative Models via Multi-Key Watermarking
-  * http://arxiv.org/abs/2507.07871
-* Provably Robust and Secure Steganography in Asymmetric Resource Scenario
-  * SP 2025
-* Defending LLM Watermarking Against Spoofing Attacks with Contrastive Representation Learning
-
 ### 2.4. <a name='Robustwatermark'></a>Robust watermark
 
 * Edit Distance Robust Watermarks for Language Models
@@ -345,6 +326,28 @@ An UP-TO-DATE collection list for Large Language Model (LLM) Watermark
 * Entropy-Guided Watermarking for LLMs: A Test-Time Framework for Robust and Traceable Text Generation
 * A Certified Robust Watermark For Large Language Models
 * WaterMax: breaking the LLM watermark detectability-robustness-quality trade-off
+
+
+### 2.5. <a name='AntiSpoofwatermark'></a> Anti-spoofing Watermark
+* Detecting Post-generation Edits to Watermarked LLM Outputs via Combinatorial Watermarking
+  * http://arxiv.org/abs/2510.01637
+* Discovering Spoofing Attempts on Language Model Watermarks
+  * http://arxiv.org/abs/2410.02693
+* DAMAGE: Detecting Adversarially Modified AI Generated Text
+  * http://arxiv.org/abs/2501.03437
+* Let Watermarks Speak: A Robust and Unforgeable Watermark for Language Models
+  * http://arxiv.org/abs/2412.19603
+* An Unforgeable Publicly Verifiable Watermark for Large Language Models
+  * http://arxiv.org/abs/2307.16230
+* DualGuard: Dual-stream Large Language Model Watermarking Defense against Paraphrase and Spoofing Attack
+  * http://arxiv.org/abs/2512.16182
+* Two Halves Make a Whole: How to Reconcile Soundness and Robustness in Watermarking for Large Language Models
+  * https://eprint.iacr.org/2024/2062
+* Mitigating Watermark Forgery in Generative Models via Multi-Key Watermarking
+  * http://arxiv.org/abs/2507.07871
+* Provably Robust and Secure Steganography in Asymmetric Resource Scenario
+  * SP 2025
+* Defending LLM Watermarking Against Spoofing Attacks with Contrastive Representation Learning
 
 ## 3. <a name='Multi-bitwatermark'></a>Multi-bit watermark
 
@@ -410,6 +413,17 @@ An UP-TO-DATE collection list for Large Language Model (LLM) Watermark
 * Multi-Bit Distortion-Free Watermarking for Large Language Models [paper](http://arxiv.org/abs/2402.16578)
 * Distortion-free Watermarks are not Truly Distortion-free under Watermark Key Collisions [paper](http://arxiv.org/abs/2406.02603)
   * **Alias** Pseudo- vs. True-Randomness: Rethinking Distortion-Free Watermarks of Language Models under Watermark Key Collisions [paper](https://openreview.net/forum?id=jln7IcheW6)
+* HeavyWater and SimplexWater: Distortion-free LLM Watermarks for Low-Entropy Distributions
+* An Ensemble Framework for Unbiased Language Model Watermarking
+* Analyzing and Evaluating Unbiased Language Model Watermark
+* Watermarking Large Language Models: An Unbiased and Low-risk Method
+  * ACL 2025
+* BiMark: Unbiased Multilayer Watermarking for Large Language Models
+* LLM Watermarking Using Mixtures and Statistical-to-Computational Gaps
+* From Trade-off to Synergy: A Versatile Symbiotic Watermarking Framework for Large Language Models
+* Optimized Couplings for Watermarking Large Language Models
+* Improved Unbiased Watermark for Large Language Models
+* Debiasing Watermarks for Large Language Models via Maximal Coupling
 
 ## 5. <a name='AnalysisofLLMwatermark'></a>Analysis of LLM watermark
 
@@ -433,7 +447,20 @@ An UP-TO-DATE collection list for Large Language Model (LLM) Watermark
 * Lost in Overlap: Exploring Logit-based Watermark Collision in LLMs
   * http://arxiv.org/abs/2403.10020
 
-## 6. <a name='Survey'></a>Survey
+## 6. <a name='dllmwm'></a>Watermark for Diffusion Language Model
+
+* STEAD: Robust Provably Secure Linguistic Steganography with Diffusion Language Model
+* LR-DWM: Efficient Watermarking for Diffusion Language Models
+* Watermarking Discrete Diffusion Language Models
+* A watermark for order-agnostic language models
+  * ICLR 2025
+* Every Step Counts: Decoding Trajectories as Authorship Fingerprints of dLLMs
+* DMark: Order-Agnostic Watermarking for Diffusion Large Language Models
+* Watermarking Diffusion Language Models
+  * ICLR 2026
+
+
+## 7. <a name='Survey'></a>Survey
 
 * A Survey of Text Watermarking in the Era of Large Language Models
   * ACM Computing Surveys 2024
