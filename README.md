@@ -326,6 +326,9 @@ An UP-TO-DATE collection list for Large Language Model (LLM) Watermark
 * Entropy-Guided Watermarking for LLMs: A Test-Time Framework for Robust and Traceable Text Generation
 * A Certified Robust Watermark For Large Language Models
 * WaterMax: breaking the LLM watermark detectability-robustness-quality trade-off
+* Is Multilingual LLM Watermarking Truly Multilingual? Scaling Robustness to 100+ Languages via Back-Translation
+  * http://arxiv.org/abs/2510.18019
+  * [code](https://github.com/asimzz/steam)
 
 
 ### 2.5. <a name='AntiSpoofwatermark'></a> Anti-spoofing Watermark
