@@ -449,6 +449,9 @@ An UP-TO-DATE collection list for Large Language Model (LLM) Watermark
   * http://arxiv.org/abs/2505.01484
 * Lost in Overlap: Exploring Logit-based Watermark Collision in LLMs
   * http://arxiv.org/abs/2403.10020
+* Watermarking Degrades Alignment in Language Models: Analysis and Mitigation
+  * TMLR 2026
+  * http://arxiv.org/abs/2506.04462
 
 ## 6. <a name='dllmwm'></a>Watermark for Diffusion Language Model
 
